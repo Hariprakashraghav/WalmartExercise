@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ethoca_Challenge]">
+  <test thread-count="5" name="MagicMouse_Purchase(failed)">
+    <classes>
+      <class name="exercise.Test01">
+        <methods>
+          <include name="iniTest"/>
+          <include name="TestCase01"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- exercise.Test01 -->
+    </classes>
+  </test> <!-- MagicMouse_Purchase(failed) -->
+  <test thread-count="5" name="AppleTV_Purchase(failed)">
+    <classes>
+      <class name="exercise.Test02">
+        <methods>
+          <include name="validateProduct_Select"/>
+          <include name="enterUserDetails"/>
+          <include name="cleanUp"/>
+          <include name="validateTranPage"/>
+          <include name="iniTest"/>
+        </methods>
+      </class> <!-- exercise.Test02 -->
+    </classes>
+  </test> <!-- AppleTV_Purchase(failed) -->
+</suite> <!-- Failed suite [Ethoca_Challenge] -->

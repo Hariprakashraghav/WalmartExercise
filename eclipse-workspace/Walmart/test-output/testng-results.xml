@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45591" started-at="2019-03-28T01:56:24Z" finished-at="2019-03-28T01:57:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45591" started-at="2019-03-28T01:56:24Z" finished-at="2019-03-28T01:57:10Z">
+      <class name="execrise.Test01">
+        <test-method status="PASS" signature="iniTest()[pri:0, instance:execrise.Test01@4493d195]" name="iniTest" is-config="true" duration-ms="7697" started-at="2019-03-28T01:56:24Z" finished-at="2019-03-28T01:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniTest -->
+        <test-method status="PASS" signature="iniTest()[pri:0, instance:execrise.Test02@2781e022]" name="iniTest" is-config="true" duration-ms="7240" started-at="2019-03-28T01:56:32Z" finished-at="2019-03-28T01:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniTest -->
+        <test-method status="PASS" signature="iniTest()[pri:0, instance:execrise.Test03@57e1b0c]" name="iniTest" is-config="true" duration-ms="6953" started-at="2019-03-28T01:56:39Z" finished-at="2019-03-28T01:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniTest -->
+        <test-method status="PASS" signature="mandatorySections()[pri:0, instance:execrise.Test01@4493d195]" name="mandatorySections" duration-ms="1198" started-at="2019-03-28T01:56:46Z" finished-at="2019-03-28T01:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatorySections -->
+        <test-method status="PASS" signature="wrapper()[pri:0, instance:execrise.Test01@4493d195]" name="wrapper" is-config="true" duration-ms="2755" started-at="2019-03-28T01:57:05Z" finished-at="2019-03-28T01:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapper -->
+        <test-method status="PASS" signature="wrapper()[pri:0, instance:execrise.Test02@2781e022]" name="wrapper" is-config="true" duration-ms="751" started-at="2019-03-28T01:57:08Z" finished-at="2019-03-28T01:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapper -->
+        <test-method status="PASS" signature="wrapper()[pri:0, instance:execrise.Test03@57e1b0c]" name="wrapper" is-config="true" duration-ms="759" started-at="2019-03-28T01:57:09Z" finished-at="2019-03-28T01:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapper -->
+      </class> <!-- execrise.Test01 -->
+      <class name="execrise.Test02">
+        <test-method status="PASS" signature="imageClick()[pri:0, instance:execrise.Test02@2781e022]" name="imageClick" duration-ms="14310" started-at="2019-03-28T01:56:47Z" finished-at="2019-03-28T01:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageClick -->
+      </class> <!-- execrise.Test02 -->
+      <class name="execrise.Test03">
+        <test-method status="PASS" signature="priceCheck()[pri:0, instance:execrise.Test03@57e1b0c]" name="priceCheck" duration-ms="3908" started-at="2019-03-28T01:57:01Z" finished-at="2019-03-28T01:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceCheck -->
+      </class> <!-- execrise.Test03 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

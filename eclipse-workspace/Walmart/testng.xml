@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalmartRegression">
+  <test name="Test01">
+    <classes>
+      <class name="execrise.Test01"/>
+    </classes>
+   </test> <!-- Test --> 
+     <test name="Test02" >
+    <classes>
+      <class name="execrise.Test01"/>
+    </classes>
+    </test> <!-- Test --> 
+     <test name="Test03" >
+     <classes>
+      <class name="execrise.Test01"/>
+    </classes> 
+    </test> <!-- Test -->      
+</suite> <!-- Suite -->

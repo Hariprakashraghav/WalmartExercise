@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 86.254 sec <<< FAILURE! - in TestSuite
+TestCase01(exercise.Test01)  Time elapsed: 31.336 sec  <<< FAILURE!
+java.lang.AssertionError: Error has occured during Validating product
+	at exercise.Test01.TestCase01(Test01.java:27)
+
+validateProduct_Select(exercise.Test02)  Time elapsed: 20.118 sec  <<< FAILURE!
+java.lang.AssertionError: Error has occured during Validating product
+	at exercise.Test02.validateProduct_Select(Test02.java:35)
+
+enterUserDetails(exercise.Test02)  Time elapsed: 20.032 sec  <<< FAILURE!
+java.lang.AssertionError: Error has occured during User entry details page
+	at exercise.Test02.enterUserDetails(Test02.java:40)
+
+validateTranPage(exercise.Test02)  Time elapsed: 0.073 sec  <<< FAILURE!
+java.lang.AssertionError: Transaction page NOT displayed expected [true] but found [false]
+	at exercise.Test02.validateTranPage(Test02.java:45)
+

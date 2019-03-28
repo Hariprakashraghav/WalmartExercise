@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ethoca_Challenge">
+ <test name="MagicMouse_Purchase">
+ <classes>
+ 	<class name="exercise.Test01" > </class>
+ </classes>
+ </test>
+ <test name="AppleTV_Purchase">
+ <classes>
+ 	<class name="exercise.Test02" > </class>
+ </classes>
+ </test>
+</suite>
